@@ -9,7 +9,7 @@ const main = async () => {
     console.log('Database initialized')
 
     app.listen(PORT)
-    console.log(`Server on http://localhost:${PORT}/graphql`)
+    console.log(`Server running on port`, PORT)
 
     IMPORT_DATA.resolve()
   } catch (error) {
